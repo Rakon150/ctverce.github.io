@@ -1,1 +1,1 @@
-# ctverce.github.io
+Náhodný projekt do IKT
