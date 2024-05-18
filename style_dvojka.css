@@ -1,0 +1,92 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+}
+body {
+    min-height: 100vh;
+}
+nav {
+    background-color: seagreen;
+    box-shadow: 1px 1px 3px black;
+}
+nav ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav li {
+    height: 50px;
+}
+nav a {
+    font-size: 30px;;
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: black;
+    transition: .3s;
+}
+nav a:hover {
+    background-color: lime;
+}
+nav li:first-child {
+    margin-right: auto;
+}
+
+
+.model {
+    border: 5px solid;
+    position: absolute;
+    width: 900px;
+    height: 600px;
+    top: 150px;
+    left: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .ctverce {
+    text-align: center;
+    font-size: 64px;
+  }
+  
+#prvni {
+    position: absolute;
+    left: 100px;
+    top: 150px;
+    background-color: #f1c9fe;
+    width: 400px;
+    height: 200px;
+}
+
+#druhy {
+    position: absolute;
+    left: 500px;
+    top: 150px;
+    background-color: #f4a4c0;
+    width: 200px;
+    height: 200px;
+}
+
+#treti {
+    position: absolute;
+    left: 100px;
+    top: 350px;
+    background-color: #ff8c82;
+    width: 200px;
+    height: 200px;
+}
+
+#ctvrty {
+    position: absolute;
+    left: 300px;
+    top: 350px;
+    background-color: #ff8647;
+    width: 400px;
+    height: 200px;
+}
